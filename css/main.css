@@ -1,0 +1,92 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+
+
+/* Header */
+
+.header {
+    background-color: #fcdb00;
+    color: #010101;
+    padding-top: 58px;
+    padding-bottom: 105px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu__item {
+    margin: 0 57px;
+}
+
+.menu__item a {
+    color: #010101;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.offer {
+    margin-top: 117px;
+}
+
+.offer__title {
+    font-style: 32px;
+    margin-bottom: 15px;
+}
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
+    margin-top: 20px;
+}
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #555555;
+    width: 400px;
+}
+
+.icon__items {
+    
+}
+
+.icon__items a {
+    color: #000;
+    font-size: 42px;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: all .2s linear;
+}
+
+.icon__items a:hover {
+    color: #fff;
+}
+
+.ipad {
+    display: block;
+    margin: 60px auto 0;
+}
