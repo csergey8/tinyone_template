@@ -90,3 +90,102 @@ h3 {
     display: block;
     margin: 60px auto 0;
 }
+
+/* Features */
+
+.features {
+    padding: 100px;
+}
+
+.features__title {
+    text-align: center;
+    padding-bottom: 80px;
+}   
+
+.features__title--main {
+    font-size: 32px;
+}
+
+.features__title--text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+
+.feature {
+    margin-bottom: 70px;
+}
+
+.feature__icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000;
+}
+
+.feature__block {
+
+}
+
+.feature__block--title {
+    font-size: 22px;
+}
+
+.feature__block--text {
+    color: #898989;
+}
+
+/* Touch section */
+
+.touch {
+    padding: 100px;
+    background-color: #000;
+    color: #898989;
+}
+
+.touch__title {
+    text-align: center;
+    padding-bottom: 80px;
+}   
+
+.touch__title--main {
+    font-size: 32px;
+    color: #fcdb00;
+}
+
+.touch__title--text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 10px;
+    width: 580px;
+    padding: 14px 0;
+    border: 0;
+    margin-right: 21px;
+    padding-left: 23px;
+    outline: none;
+}
+
+.form__btn {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #fcdb00;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+}
