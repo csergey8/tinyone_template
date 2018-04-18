@@ -204,3 +204,48 @@ h3 {
     width: 184px;
     margin: 0 auto;
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .offer {
+        text-align: center;
+        margin-top: 55px;
+    }
+    .offer__text {
+        margin: 20px auto;
+    }
+    .icon {
+        justify-content: space-around;
+    }
+    .features__title--text {
+        width: auto;
+    }
+    .form__input {
+        margin: 0;
+    }
+    .form__btn {
+        width: 84%;
+        margin-top: 10px;
+    }
+    .touch__title--text {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .ipad {
+        width: 100%;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    .menu__item {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
